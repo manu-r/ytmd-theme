@@ -1,0 +1,109 @@
+html {
+   min-width: 480px; 
+   background: rgba(0,0,0,0.5) !important;
+}
+
+html, body, ytmusic-player-page, ytmusic-detail-header-renderer,ytmusic-app-layout, ytmusic-nav-bar, #nav-bar-background
+,ytmusic-immersive-header-renderer
+{
+    background-color: #1D1D1D !important;
+}
+
+ytmusic-item-section-renderer>#header, ytmusic-tabs.stuck {
+    background-color: #1D1D1D !important;
+    box-shadow: none !important;
+}
+
+ytmusic-app-layout>#content {
+    padding: 0 100px;
+}
+
+.image.ytmusic-two-row-item-renderer {
+    border-radius: 1em !important;
+}
+
+ytmusic-fullbleed-thumbnail-renderer {
+    padding-top: 75px !important;
+    background-color: #1D1D1D !important;
+    border-radius: 12em !important;
+}
+
+yt-page-navigation-progress, #ytmd_history_back {
+    display: none !important;
+}
+
+ytmusic-search-box #input {
+    display: block !important;
+    padding: 0 1em !important;
+}
+
+ytmusic-search-box #placeholder, ytmusic-search-box .search-icon {
+    display: none !important;
+}
+
+ytmusic-search-box {
+    position: absolute !important;
+    width: var(--ytmusic-search-width) !important;
+    z-index: 2;
+    border: 1px solid var(--ytmusic-search-border) !important;
+}
+ytmusic-search-box.ytmusic-nav-bar {
+    border-radius: 1em !important;
+}
+
+ytmusic-search-box #input {
+    font-size: 12pt !important;
+}
+    
+ytmusic-nav-bar {
+    width: 100px !important;
+    height: 100% !important;
+    display: block !important;
+}
+
+ytmusic-nav-bar > * {
+    float: left !important;
+}
+
+ytmusic-pivot-bar-renderer {
+    display: block !important;
+    margin-top: 6rem !important;
+    height: 150px !important;
+}
+
+ytmusic-pivot-bar-item-renderer {
+    padding: 20px 0 !important;
+}
+
+.tab-title.ytmusic-pivot-bar-item-renderer {
+    display: none !important;
+}
+
+.tab-icon.ytmusic-pivot-bar-item-renderer {
+    display: block !important;
+}
+
+.right-content.ytmusic-nav-bar {
+    position: fixed !important;
+    top: 15px !important;
+    right: 20px !important;
+}
+
+.left-content.ytmusic-nav-bar {
+    position: fixed !important;
+    top: 15px !important;
+    left: 20px !important;
+}
+
+ytmusic-search-box {
+    position: fixed !important;
+    top: 5px !important;
+    right: 150px !important;
+}
+
+.image.ytmusic-immersive-header-renderer ~ .content-container-wrapper.ytmusic-immersive-header-renderer .gradient-container.ytmusic-immersive-header-renderer {
+    background: linear-gradient(360deg, #1d1d1d 8.98%, rgba(0, 0, 0, 0) 100%) !important;
+}
+
+
+
